@@ -5,3 +5,4 @@ services:
     startCommand: node index.js
     envVars:
       - key: APP_NAME
+        sync: false
