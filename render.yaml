@@ -2,6 +2,7 @@ services:
   - name: node-render-app
     type: web
     env: node
+    plan: free
     startCommand: node index.js
     envVars:
       - key: APP_NAME
