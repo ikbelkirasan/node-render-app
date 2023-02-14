@@ -1,0 +1,7 @@
+services:
+  - name: node-render-app
+    type: web
+    env: node
+    startCommand: node index.js
+    envVars:
+      - key: APP_NAME
