@@ -3,7 +3,7 @@ services:
     type: web
     env: node
     plan: free
-    buildCommand: yarn
+    buildCommand: yarn install --production
     startCommand: node index.js
     envVars:
       - key: APP_NAME
